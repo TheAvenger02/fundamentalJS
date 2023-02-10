@@ -1,4 +1,4 @@
-let currencies = ['MXN', 'USD', 'EUR', 'CAD']
+/* let currencies = ['MXN', 'USD', 'EUR', 'CAD']
 console.log(currencies);
 
 let size = currencies.length;
@@ -20,4 +20,16 @@ let delete_esp_pos = currencies.splice(1,1)
 
 //Posición índice de una moneda
 let currency_pos = currencies.indexOf('EUR');
-console.log(currency_pos,currencies)
+console.log(currency_pos,currencies) */
+
+let arr = []
+let number1 = prompt('Escribe un número:')
+arr.push(number1)
+let number2 = prompt('Escribe un número:')
+arr.push(number2)
+let number3 = prompt('Escribe un número:')
+arr.push(number3)
+console.log('El primer número es: ' + arr[0])
+console.log('El último número es: ' + arr[arr.length - 1])
+let sum = parseInt(number1) + parseInt(number2) + parseInt(number3);
+console.log('La suma de tus números es: ' + sum)
