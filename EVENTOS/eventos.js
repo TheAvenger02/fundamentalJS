@@ -15,3 +15,10 @@ function login(){
         alert("Usuario/Contraseña incorrecto");
     }
 }
+
+function cambiarUbicacion(){
+    alert("Cambiamos de ubicación");
+}
+
+//Nueva forma de agregar evento onClick a object
+document.getElementById('btnUbica').onclick = cambiarUbicacion;
